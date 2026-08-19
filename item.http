@@ -1,0 +1,13 @@
+GET http://localhost:8080/items
+Accept: application/json
+
+###
+POST http://localhost:8080/item
+Content-Type: application/json
+
+{
+  "name": "item 2",
+  "description": "Item 2 description",
+  "email": "my@email.com"
+}
+
